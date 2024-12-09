@@ -27,7 +27,7 @@ while jatektabla.ureshelyek(tablazat) == True: # Ha esetleg mind a 100 hely fogl
     oszlop = int(input("Hányadik oszlopba szeretne tenni? (1-10) "))
 
     # Táblázaton belüli koordinátát írt-e a user
-    while not(sor > 0 and sor < 11) or not(oszlop > 0 and oszlop < 11):
+    while not(sor >= 1 and sor <= 10) or not(oszlop >= 1 and oszlop <= 10):
         print("Valamelyik pozíció a táblázaton kívül esik!")
         sor = int(input("Hányadik sorba szeretne tenni? (1-10) ")) 
         oszlop = int(input("Hányadik oszlopba szeretne tenni? (1-10) "))
