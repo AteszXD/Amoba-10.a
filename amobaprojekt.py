@@ -16,11 +16,11 @@ tablazat = [
 ]
 
 # Milyen jelet rakjon (Később lesz meghívva)
-jel = "X" # Feltételezzük, hogy X kezd
+jel = "X" # Feltételezzük hogy X kezd
 lepesszam = 0
 
 # Hova tegye a jelet
-while jatektabla.ureshelyek(tablazat) == True: # Ha esetleg mind a 100 hely foglalt akkor a játék érjen véget
+while jatektabla.ureshelyek(tablazat) == True: # Ha esetleg mind a 100 hely foglalt mielőtt valaki nyerne akkor a játék érjen véget. Nem látok erre sok esélyt debiztonság ked
     
     # Első bekérés
     sor = int(input("Hányadik sorba szeretne tenni? (1-10) ")) 
